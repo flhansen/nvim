@@ -2,11 +2,10 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-set relativenumber
 set number        " show line numbers
 set expandtab     " replace tabs with spaces
-set tabstop=2     " make one tab be 2 spaces
-set shiftwidth=2  " make one tab be 2 spaces
+set tabstop=4     " make one tab be 4 spaces
+set shiftwidth=4  " make one tab be 4 spaces
 
 " ===== colorscheme
 colorscheme onedark
